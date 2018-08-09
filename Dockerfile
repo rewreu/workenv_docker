@@ -17,5 +17,5 @@ RUN pip3 --no-cache-dir install \
         gpudb \
         http://download.pytorch.org/whl/cpu/torch-0.4.1-cp35-cp35m-linux_x86_64.whl \
         torchvision \
-        jupyter-lab \
+        jupyterlab \
         seaborn \
