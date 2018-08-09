@@ -9,7 +9,7 @@ RUN apt-get update && \
         unzip \
         yasm \
         vim \
-        sudo \
+        sudo
 
 
 RUN pip3 --no-cache-dir install \
