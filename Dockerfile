@@ -19,3 +19,5 @@ RUN pip3 --no-cache-dir install \
         torchvision \
         jupyterlab \
         seaborn \
+        
+COPY jupyter_notebook_config.py /root/.jupyter/
