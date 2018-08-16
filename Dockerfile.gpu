@@ -118,6 +118,8 @@ RUN APT_INSTALL="apt-get install -y --no-install-recommends" && \
         six \
         xgboost \
         && \
+        
+     python -m ipykernel.kernelspec && \
 # ==================================================================
 # opencv
 # ------------------------------------------------------------------
