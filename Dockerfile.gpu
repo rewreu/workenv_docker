@@ -116,7 +116,7 @@ RUN APT_INSTALL="apt-get install -y --no-install-recommends" && \
         scipy \
         scikit-learn \
         six \
-        xgboost
+        xgboost \
         && \
 # ==================================================================
 # opencv
