@@ -160,7 +160,7 @@ RUN APT_INSTALL="apt-get install -y --no-install-recommends" && \
 
 EXPOSE 6006
 
-COPY jupyter_notebook_config.py /root/.jupyter/ ; 
+COPY jupyter_notebook_config.py /root/.jupyter/
 
 CMD ["jupyter", "notebook", "--port=8888",  \
     "--allow-root", "--ip=0.0.0.0"]
