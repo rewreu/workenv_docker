@@ -8,7 +8,8 @@ import pyodbc
 import pandas as pd
 
 # connection information
-ODBC = 'DSN=Kinetica;UID=admin;PWD=yourKineticaPassword'
+ODBC = 'DSN=Kinetica;UID=;PWD='
+# UID is for username, PWD is passowrd, if authentication is not on, leave it blanck
 
 
 def get_odbc():
