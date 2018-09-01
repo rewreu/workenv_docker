@@ -27,7 +27,7 @@ COPY odbc/odbcinst.ini /etc/
 COPY odbc/libSimbaClient.so.tar.gz /tmp/libSimbaClient.so.tar.gz
 COPY odbc/kodbc_io.py /usr/lib/python3.5/
 
-RUN tar -xvf /tmp/libSimbaClient.so.tar.gz /usr/local/lib/
+RUN tar -xvf /tmp/libSimbaClient.so.tar.gz -C /usr/local/lib/
 
 
 COPY jupyter_notebook_config.py /root/.jupyter/
