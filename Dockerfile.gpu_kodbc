@@ -31,7 +31,9 @@ RUN APT_INSTALL="apt-get install -y --no-install-recommends" && \
         wget \
         git \
         vim \
-        unixodbc-dev unixodbc-bin unixodbc \ # all the odbc driver
+        unixodbc-dev \
+        unixodbc-bin \
+        unixodbc \
         && \
 
 # ==================================================================
