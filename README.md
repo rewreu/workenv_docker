@@ -25,17 +25,17 @@ nvidia-docker run -d -p 8888:8888 -v  /hostnotebookpath:/notebooks \
 --name workenv rewreu/workenv_docker:tag
 ```
 
-### Jupyter password
-
+### Change Jupyter password
+You will be asked for jupyter password at `localhost:8888/lab`. 
 To change password
 1. Run `docker exec -it yourcontainer name bash`.
 2. Modify `jupyter_notebook_config.py` at `/root/.jupyter/`.
-3. Use ipython generate your own password hash
-4. Use the new hash to substitute `c.NotebookApp.password` in `jupyter_notebook_config.py`.
+3. Use ipython to generate your own password hash
+4. Use the new hash to substitute value for `c.NotebookApp.password` in `jupyter_notebook_config.py`.
 
 ### ODBC IP
 
 For the tags with kodbc only.
 
-By default the odbc driver is using 127.0.0.1 for database address, to change it, modify file at `/etc/odbc.ini`
+By default the odbc driver is using `127.0.0.1` for database address, modify it in `/etc/odbc.ini`
 
