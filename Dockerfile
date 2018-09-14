@@ -9,9 +9,8 @@ RUN apt-get update && \
         unzip \
         yasm \
         vim \
-        sudo
-
-RUN pip3 --no-cache-dir install \
+        sudo && \
+     pip3 --no-cache-dir install \
         numpy \
         gpudb \
         http://download.pytorch.org/whl/cpu/torch-0.4.1-cp35-cp35m-linux_x86_64.whl \
