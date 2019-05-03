@@ -3,7 +3,7 @@
 # ------------------------------------------------------------------
 # python        3.6    (apt)
 # mxnet         latest (pip)
-# pytorch       0.4.0  (pip)
+# pytorch       latest  (pip)
 # tensorflow    latest (pip)
 # opencv        3.4.1  (git)
 # Scikit-learn, Pandas, xgboost, jupyter, seaborn
